@@ -1,0 +1,871 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!--Import Google Icon Font-->
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        
+        <!-- Google fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Gupter|PT+Sans|PT+Sans+Narrow|Raleway|Roboto+Condensed|Source+Sans+Pro&display=swap" rel="stylesheet">
+
+        <!-- Compiled and minified CSS -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+        
+        <!-- Slick Slider CSS -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.css" integrity="sha256-3h45mwconzsKjTUULjY+EoEkoRhXcOIU4l5YAw2tSOU=" crossorigin="anonymous" />
+        
+        <!-- Font Awesome -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha256-eZrrJcwDc/3uDhsdt61sL2oOBY362qM3lon1gyExkL0=" crossorigin="anonymous"/>
+        
+        <style>
+            .slider_btn {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            .chevron_prev_next .fa {
+                font-weight: 300;
+                border-radius: 50%;
+                font-size: 16px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                color: #007bff;
+            }
+            .chevron_prev_next {
+                width: 38px;
+                height: 28px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                border: 1px solid #007bff;
+                cursor: pointer;
+            }
+            .chevron_prev_next:hover {
+                background-color: #007bff;
+                transition: 0.6s;
+            }
+            .chevron_prev_next:hover .fa-chevron-left, .chevron_prev_next:hover .fa-chevron-right{
+                color: #fff;
+                transition: 0.6s;
+            }
+        </style>
+        <link rel="stylesheet" href="css/style.css">
+        <title>Online Video Streaming - Home Page</title>
+    </head>
+    <body>
+        <!-- **** Navbar Section Start **** -->
+        <div id="navbar_header">
+            <nav class="blue lighten-1">
+                <div class="nav-wrapper mycontainer">
+                    <a href="index.html" class="brand-logo left mt-2">
+                        <img src="img/logo.png" width="90px" height="50px" />
+                    </a>
+                    <ul class="right hide-on-med-and-down">
+                        <li><a class="f-500 fs-16" href="#gallery_section">Gallery</a></li>
+                        <li><a class="f-500 fs-16" href="#mx_originals">MX Originals</a></li>
+                        <li><a class="f-500 fs-16" href="#our_services">Services</a></li>
+                        <li><a class="f-500 fs-16" href="#pricingdiv">Pricing</a></li>
+                        <li><a class="f-500 fs-16" href="about.html">About</a></li>
+                    </ul>
+                    <a href="#" data-target="mobile-demo" class="sidenav-trigger right"><i class="material-icons">menu</i></a>
+                </div>
+            </nav>
+
+            <ul class="sidenav" id="mobile-demo">
+                <li><a class="f-500 fs-16" href="#gallery_section">Gallery</a></li>
+                <li><a class="f-500 fs-16" href="#mx_originals">MX Originals</a></li>
+                <li><a class="f-500 fs-16" href="#our_services">Services</a></li>
+                <li><a class="f-500 fs-16" href="#pricingdiv">Pricing</a></li>
+                <li><a class="f-500 fs-16" href="about.html">About</a></li>
+            </ul>
+        </div>
+        
+        <!-- **** Top Carousel Section Start **** -->
+        <div class="carousel carousel-slider" id="top_carousel">
+            <a class="carousel-item" href="#one!">
+                <img src="img/carousel/c1.jpg" height="500px" />
+            </a>
+            <a class="carousel-item" href="#two!">
+                <img src="img/carousel/c2.jpg" height="500px" />
+            </a>
+            <a class="carousel-item" href="#three!">
+                <img src="img/carousel/c3.png" height="500px" />
+            </a>
+            <a class="carousel-item" href="#four!">
+                <img src="img/carousel/c4.jpeg" height="500px" />
+            </a>
+        </div>
+        
+        <!-- **** Top Movies Section Start **** -->
+        <section class="mycontainer pt-4" id="top_movies">
+            <h4 class="f-700 fs-32">Top trending movies of this Week</h4>
+            <div class="slider_one">
+                <div class="d-inline">
+                    <div class="mx-center" style="width: 190px;">
+                        <img src="img/streaming/1.jpg" class="img" width="190px" height="280px">
+                    </div>
+                </div>
+                <div class="d-inline">
+                    <div class="mx-center" style="width: 190px;">
+                        <img src="img/streaming/2.jpg" class="img" width="190px" height="280px">
+                    </div>
+                </div>
+                <div class="d-inline">
+                    <div class="mx-center" style="width: 190px;">
+                        <img src="img/streaming/3.jpg" class="img" width="190px" height="280px">
+                    </div>
+                </div>
+                <div class="d-inline">
+                    <div class="mx-center" style="width: 190px;">
+                        <img src="img/streaming/4.jpg" class="img" width="190px" height="280px">
+                    </div>
+                </div>
+                <div class="d-inline">
+                    <div class="mx-center" style="width: 190px;">
+                        <img src="img/streaming/5.jpg" class="img" width="190px" height="280px">
+                    </div>
+                </div>
+                <div class="d-inline">
+                    <div class="mx-center" style="width: 290px;">
+                        <img src="img/streaming/6.jpg" class="img" width="190px" height="280px">
+                    </div>
+                </div>
+                <div class="d-inline">
+                    <div class="mx-center" style="width: 190px;">
+                        <img src="img/streaming/7.jpg" class="img" width="190px" height="280px">
+                    </div>
+                </div>
+                <div class="d-inline">
+                    <div class="mx-center" style="width: 190px;">
+                        <img src="img/streaming/8.jpg" class="img" width="190px" height="280px">
+                    </div>
+                </div>
+                <div class="d-inline">
+                    <div class="mx-center" style="width: 190px;">
+                        <img src="img/streaming/9.jpg" class="img" width="190px" height="280px">
+                    </div>
+                </div>
+                <div class="d-inline">
+                    <div class="mx-center" style="width: 190px;">
+                        <img src="img/streaming/10.jpg" class="img" width="190px" height="280px">
+                    </div>
+                </div>
+                <div class="d-inline">
+                    <div class="mx-center" style="width: 190px;">
+                        <img src="img/streaming/11.jpg" class="img" width="190px" height="280px">
+                    </div>
+                </div>
+                <div class="d-inline">
+                    <div class="mx-center" style="width: 190px;">
+                        <img src="img/streaming/12.jpg" class="img" width="190px" height="280px">
+                    </div>
+                </div>
+            </div>
+            <div class="slider_btn slider_btn_one">
+                <div class="chevron_prev_next chevron_prev mx-2">
+                    <span class="prev">
+                        <i class="fa fa-chevron-left"></i>
+                    </span>
+                </div>
+                <div class="chevron_prev_next chevron_next mx-2">
+                    <span class="next">
+                        <i class="fa fa-chevron-right"></i>
+                    </span>
+                </div>
+            </div>
+        </section>
+        
+        <!-- **** T.V Shows Section Start **** -->
+        <section class="mycontainer pt-4" id="tv_shows">
+            <h4 class="f-700 fs-32">Top trending TV shows of this Week</h4>
+            <div id="slider_two">
+                <div class="d-inline">
+                    <div class="mx-center" style="width: 280px;">
+                        <img src="img/tv/i1.jpg" class="img" width="280px" height="170px">
+                    </div>
+                </div>
+                <div class="d-inline">
+                    <div class="mx-center" style="width: 280px;">
+                        <img src="img/tv/i2.jpg" class="img" width="280px" height="170px">
+                    </div>
+                </div>
+                <div class="d-inline">
+                    <div class="mx-center" style="width: 280px;">
+                        <img src="img/tv/i3.jpg" class="img" width="280px" height="170px">
+                    </div>
+                </div>
+                <div class="d-inline">
+                    <div class="mx-center" style="width: 280px;">
+                        <img src="img/tv/i4.jpg" class="img" width="280px" height="170px">
+                    </div>
+                </div>
+                <div class="d-inline">
+                    <div class="mx-center" style="width: 280px;">
+                        <img src="img/tv/i5.jpg" class="img" width="280px" height="170px">
+                    </div>
+                </div>
+                <div class="d-inline">
+                    <div class="mx-center" style="width: 280px;">
+                        <img src="img/tv/i6.jpg" class="img" width="280px" height="170px">
+                    </div>
+                </div>
+                <div class="d-inline">
+                    <div class="mx-center" style="width: 280px;">
+                        <img src="img/tv/i7.jpg" class="img" width="280px" height="170px">
+                    </div>
+                </div>
+                <div class="d-inline">
+                    <div class="mx-center" style="width: 280px;">
+                        <img src="img/tv/i8.jpg" class="img" width="280px" height="170px">
+                    </div>
+                </div>
+            </div>
+            <div class="slider_btn slider_btn_two">
+                <div class="chevron_prev_next chevron_prev mx-2">
+                    <span class="prev">
+                        <i class="fa fa-chevron-left"></i>
+                    </span>
+                </div>
+                <div class="chevron_prev_next chevron_next mx-2">
+                    <span class="next">
+                        <i class="fa fa-chevron-right"></i>
+                    </span>
+                </div>
+            </div>
+        </section>
+        
+        <!-- **** T.V Shows Section Start **** -->
+        <section class="more_intro" id="mx_originals">
+            <div class="mycontainer">
+                <div class="row">
+                    <div class="col 9xl 9l m12 s12">
+                        <h2 class="white-text f-700">MX Original Web Shows</h2>
+                        <h5 class="white-text f-400">Binge Watch All The MX Originals</h5>
+                    </div>
+                    <div class="col 9xl 9l m0 s0"></div>
+                </div>
+                <div class="row">
+                    <div class="col s6 m6 l3 xl3">
+                        <div class="card hoverable">
+                            <div class="card-image">
+                                <img src="img/tv/i2.jpg">
+<!--                                <span class="card-title">Card Title</span>-->
+                                <a class="btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons">add</i></a>
+                            </div>
+                            <div class="card-content">
+                                <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
+                            </div>
+                            <div class="card-action">
+                              <a href="#" class="black-text center-align">See More</a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col s6 m6 l3 xl3">
+                        <div class="card hoverable">
+                            <div class="card-image">
+                                <img src="img/tv/i4.jpg">
+<!--                                <span class="card-title">Card Title</span>-->
+                                <a class="btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons">add</i></a>
+                            </div>
+                            <div class="card-content">
+                                <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
+                            </div>
+                            <div class="card-action">
+                              <a href="#" class="black-text center-align">See More</a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col s6 m6 l3 xl3">
+                        <div class="card hoverable">
+                            <div class="card-image">
+                                <img src="img/tv/i6.jpg">
+<!--                                <span class="card-title">Card Title</span>-->
+                                <a class="btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons">add</i></a>
+                            </div>
+                            <div class="card-content">
+                                <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
+                            </div>
+                            <div class="card-action">
+                              <a href="#" class="black-text center-align">See More</a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col s6 m6 l3 xl3">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="img/tv/i8.jpg">
+<!--                                <span class="card-title">Card Title</span>-->
+                                <a class="btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons">add</i></a>
+                            </div>
+                            <div class="card-content">
+                                <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
+                            </div>
+                            <div class="card-action">
+                              <a href="#" class="black-text center-align">See More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- **** gallery_section start **** -->
+        <section class="mycontainer pt-4" id="gallery_section">
+            <h4 class="f-700 fs-32">Top trending TV shows of this Week</h4>
+            
+            <div class="row">
+                <div class="col xl4 l4 m6 s6">
+                    <img src="img/tv/i2.jpg" class="responsive-img mt-3 materialboxed" data-caption="Awesome Show Must Watch">
+                </div>
+                
+                <div class="col xl4 l4 m6 s6">
+                    <img src="img/tv/i9.jpg" class="responsive-img mt-3 materialboxed" data-caption="Awesome Show Must Watch">
+                </div>
+                
+                <div class="col xl4 l4 m6 s6">
+                    <img src="img/tv/i3.jpg" class="responsive-img mt-3 materialboxed" data-caption="Awesome Show Must Watch">
+                </div>
+                
+                <div class="col xl4 l4 m6 s6">
+                    <img src="img/tv/i4.jpg" class="responsive-img mt-3 materialboxed" data-caption="Awesome Show Must Watch">
+                </div>
+                
+                <div class="col xl4 l4 m6 s6">
+                    <img src="img/tv/i5.jpg" class="responsive-img mt-3 materialboxed" data-caption="Awesome Show Must Watch">
+                </div>
+                
+                <div class="col xl4 l4 m6 s6">
+                    <img src="img/tv/i6.jpg" class="responsive-img mt-3 materialboxed" data-caption="Awesome Show Must Watch">
+                </div>
+                
+                <div class="col xl4 l4 m6 s6">
+                    <img src="img/tv/i7.jpg" class="responsive-img mt-3 materialboxed" data-caption="Awesome Show Must Watch">
+                </div>
+                
+                <div class="col xl4 l4 m6 s6">
+                    <img src="img/tv/i8.jpg" class="responsive-img mt-3 materialboxed" data-caption="Awesome Show Must Watch">
+                </div>
+                
+                <div class="col xl4 l4 m6 s6">
+                    <img src="img/tv/i10.jpg" class="responsive-img mt-3 materialboxed" data-caption="Awesome Show Must Watch">
+                </div>
+            </div>
+        </section>
+        
+        <!-- **** Contact_US Start **** -->
+        <section class="pt-4 px-2" id="contact_us" style="display: none">
+            <h4 class="f-700 fs-32">Contact Us</h4>
+            
+            <div class="row d-flex">
+                <form class="col xl7 l7 m9 s12 offset-s3">
+                    <div class="row">
+                        <div class="input-field col s6">
+                            <input placeholder="Placeholder" id="first_name" type="text" class="validate">
+                            <label for="first_name">First Name</label>
+                        </div>
+                        <div class="input-field col s6">
+                            <input id="last_name" type="text" class="validate">
+                            <label for="last_name">Last Name</label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="input-field col s12">
+                            <input id="password" type="password" class="validate">
+                            <label for="password">Password</label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="input-field col s12">
+                            <input id="email" type="email" class="validate">
+                            <label for="email">Email</label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col s12">
+                            This is an inline input field:
+                            <div class="input-field inline">
+                                <input id="email_inline" type="email" class="validate">
+                                <label for="email_inline">Email</label>
+                                <span class="helper-text" data-error="wrong" data-success="right">Helper text</span>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </section>
+        
+        <!-- **** Channels_section Start **** -->
+        <section id="top_channles">
+            <h4 class="f-700 fs-32">Top Channels</h4>
+            <div class="row">
+                <div class="col s6 m7 xl3 l3">
+                    <a href="#">
+                        <div class="card horizontal">
+                            <div class="card-image p-2">
+                                <img src="img/channels/c1.png" width="60px" height="60px" style="border-radius: 50%;" class="">
+                            </div>
+                            <div class="mt-2 pt-2">
+                                <h6 class="f-bold t-right">Zee News</h6>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                
+                <div class="col s6 m7 xl3 l3">
+                    <a href="#">
+                        <div class="card horizontal">
+                            <div class="card-image p-2">
+                                <img src="img/channels/c2.webp" width="60px" height="60px" style="border-radius: 50%;" class="">
+                            </div>
+                            <div class="mt-2 pt-2">
+                                <h6 class="f-bold t-right">Star Plus</h6>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                
+                <div class="col s6 m7 xl3 l3">
+                    <a href="#">
+                        <div class="card horizontal">
+                            <div class="card-image p-2 mx-2">
+                                <img src="img/channels/c3.png" width="60px" height="60px" style="border-radius: 50%;" class="">
+                            </div>
+                            <div class="mt-2 pt-2">
+                                <h6 class="f-bold ml-2">IndiaTv</h6>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                
+                <div class="col s6 m7 xl3 l3">
+                    <a href="#">
+                        <div class="card horizontal">
+                            <div class="card-image p-2">
+                                <img src="img/channels/c4.png" width="60px" height="60px" style="border-radius: 50%;" class="">
+                            </div>
+                            <div class="mt-2 pt-2">
+                                <h6 class="f-bold t-center">Cartoon Network</h6>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                
+                <div class="col s6 m7 xl3 l3">
+                    <a href="#">
+                        <div class="card horizontal">
+                            <div class="card-image p-2">
+                                <img src="img/channels/c5.jpg" width="60px" height="60px" style="border-radius: 50%;" class="">
+                            </div>
+                            <div class="mt-2 pt-2">
+                                <h6 class="f-bold t-center">Disney +</h6>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                
+                <div class="col s6 m7 xl3 l3">
+                    <a href="#">
+                        <div class="card horizontal">
+                            <div class="card-image p-2">
+                                <img src="img/channels/c6.png" width="60px" height="60px" style="border-radius: 50%;" class="">
+                            </div>
+                            <div class="mt-2 pt-2">
+                                <h6 class="f-bold t-center">Netflix</h6>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                
+                <div class="col s6 m7 xl3 l3">
+                    <a href="#">
+                        <div class="card horizontal">
+                            <div class="card-image p-2 ml-2">
+                                <img src="img/channels/c9.png" width="60px" height="60px" style="border-radius: 50%;" class="">
+                            </div>
+                            <div class="mt-2 pt-2 ml-2">
+                                <h6 class="f-bold t-right">Hotstar</h6>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                
+                <div class="col s6 m7 xl3 l3">
+                    <a href="#">
+                        <div class="card horizontal">
+                            <div class="card-image p-2 ml-2">
+                                <img src="img/channels/c7.png" width="60px" height="60px" style="border-radius: 50%;" class="">
+                            </div>
+                            <div class="mt-2 pt-2 ml-2">
+                                <h6 class="f-bold t-right">Amazon Prime</h6>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                
+            </div>
+        </section>
+        
+        <!-- **** Project Work start **** -->
+        <section class="project_works py-3" id="projectdiv">
+            <div class="mycontainer headings t-center">
+                <h5 class="fs-32 f-bold mt-3">More then 2000 + websites created</h5>
+            </div>
+            
+            <div class="mycontainer t-center py-3">
+                <div class="row">
+                    <div class="col xl3 l3 m6 s6">
+                        <h1 class="count"> 1500 </h1>
+                        <p> Python Installation </p>
+                    </div>
+
+                    <div class="col xl3 l3 m6 s6">
+                        <h1 class="count"> 2500 </h1>
+                        <p> Award Won </p>
+                    </div>
+
+                    <div class="col xl3 l3 m6 s6">
+                        <h1 class="count"> 700 </h1>
+                        <p> Happy Clients </p>
+                    </div>
+
+                    <div class="col xl3 l3 m6 s6">
+                        <h1 class="count"> 500 </h1>
+                        <p> Working On </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- **** Our Pricing start **** -->
+        <section class="pricing" id="pricingdiv">
+            <div class="mycontainer headings t-center">
+                <h1 class="t-center f-bold white-text"> OUR BEST PRICING </h1>
+            </div>
+            
+            <div class="col m11 mx-auto s12 p-0">
+                <div class="row">
+                    <div class="col xl4 l4 s12">
+                        <div class="card t-center">
+                            <div class="card-header">BASIC</div>
+                            <div class="card-body py-3">
+                                <li> $<span class="money">20</span>/website </li>
+                                <li> Responsive Websites </li>
+                                <li> Domain Names Free </li>
+                                <li> Mobile Friendly </li>
+                                <li> Webmain Support </li>
+                                <li> Customer Support 24/7 </li>
+                            </div>
+                            <div class="card-footer">
+                                <a href="#">Purchase</a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col xl4 l4 s12 pricing_card_second">
+                        <div class="card t-center">
+                            <div class="card-header">STANDARD</div>
+                            <div class="card-body py-3">
+                                <li> $<span class="money">40</span>/website </li>
+                                <li> Responsive Websites </li>
+                                <li> Domain Names Free </li>
+                                <li> Mobile Friendly </li>
+                                <li> Webmain Support </li>
+                                <li> Customer Support 24/7 </li>
+                            </div>
+                            <div class="card-footer">
+                                <a href="#">Purchase</a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col xl4 l4 s12">
+                        <div class="card t-center">
+                            <div class="card-header">UNLIMITED</div>
+                            <div class="card-body py-3">
+                                <li> $<span class="money">60</span>/website </li>
+                                <li> Responsive Websites </li>
+                                <li> Domain Names Free </li>
+                                <li> Mobile Friendly </li>
+                                <li> Webmain Support </li>
+                                <li> Customer Support 24/7 </li>
+                            </div>
+                            <div class="card-footer">
+                                <a href="#">Purchase</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- **** Three extra Header div start **** -->
+        <section class="header-extradiv" id="our_services">
+            <div class="mycontainer">
+                <div class="mb-4">
+                    <h4 class="f-700 fs-32">Our Services</h4>
+                    <hr class="w-30">
+                </div>
+                <div class="row">
+                    <div class="col s6 l4 lx4 s12">
+                        <div class="extra_div">
+                            <a href="#">
+                                <i class="fa-3x fa fa-desktop" aria-hidden="true"></i>
+                            </a>
+                            <h5>EASY TO USE</h5>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text</p>
+                        </div>
+                    </div>
+                    
+                    <div class="col s6 l4 lx4 s12">
+                        <div class="extra_div">
+                            <div></div>
+                            <a href="#">
+                                <i class="fa-3x fa fa-trophy" aria-hidden="true"></i>
+                            </a>
+                            <h5>AWESOME DESIGN</h5>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text</p>
+                        </div>
+                    </div>
+                    
+                    <div class="col s6 l4 lx4 s12">
+                        <div class="extra_div">
+                            <div></div>
+                            <a href="#">
+                                <i class="fa-3x fa fa-magic" aria-hidden="true"></i>
+                            </a>
+                            <h5>EASY TO CUSTOMIZE</h5>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text</p>
+                        </div>
+                    </div>
+                    
+                    <div class="col s6 l4 lx4 s12">
+                        <div class="extra_div">
+                            <a href="#">
+                                <i class="fa-3x fa fa-desktop" aria-hidden="true"></i>
+                            </a>
+                            <h5>EASY TO USE</h5>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text</p>
+                        </div>
+                    </div>
+                    
+                    <div class="col s6 l4 lx4 s12">
+                        <div class="extra_div">
+                            <div></div>
+                            <a href="#">
+                                <i class="fa-3x fa fa-trophy" aria-hidden="true"></i>
+                            </a>
+                            <h5>AWESOME DESIGN</h5>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text</p>
+                        </div>
+                    </div>
+                    
+                    <div class="col s6 l4 lx4 s12">
+                        <div class="extra_div">
+                            <div></div>
+                            <a href="#">
+                                <i class="fa-3x fa fa-magic" aria-hidden="true"></i>
+                            </a>
+                            <h5>EASY TO CUSTOMIZE</h5>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text</p>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
+        
+        <!-- **** Footer Section Start **** -->
+        <footer class="website_footer">
+            <div class="mycontainer pt-4 pb-1">
+                <div class="row">
+                    <div class="col xl2 l2 m4 s4">
+                        <h6 class="f-bold mt-2">ABOUT</h6>
+                        
+                        <li><a class="t-center" href="#">Contact</a></li>
+                        <li><a class="t-center" href="#">About</a></li>
+                        <li><a class="t-center" href="#">Carriers</a></li>
+                        <li><a class="t-center" href="#">Our Stories</a></li>
+                        <li><a class="t-center" href="#">Press</a></li>
+                    </div>
+                    
+                    <div class="col xl2 l2 m4 s4">
+                        <h6 class="f-bold mt-2">POLICY</h6>
+                        
+                        <li><a class="t-center" href="#">Return Policy</a></li>
+                        <li><a class="t-center" href="#">Terms and Conditions</a></li>
+                        <li><a class="t-center" href="#">Privacy</a></li>
+                        <li><a class="t-center" href="#">Payments</a></li>
+                        <li><a class="t-center" href="#">Cancellation & Returns</a></li>
+                        <li><a class="t-center" href="#">Shippings</a></li>
+                    </div>
+                    
+                    <div class="col xl2 l2 m4 s4">
+                        <h6 class="f-bold mt-2">SOCIAL</h6>
+                        
+                        <li><a class="t-center" href="#">Facebook</a></li>
+                        <li><a class="t-center" href="#">Twitter</a></li>
+                        <li><a class="t-center" href="#">Youtube</a></li>
+                        <li><a class="t-center" href="#">Github</a></li>
+                        <li><a class="t-center" href="#">Google +</a></li>
+                    </div>
+                    
+                    <div class="col xl3 l2 m4 s12">
+                        <h6>MAIL US</h6>
+                        <p>INFERNO Internet Private Limited,<br>
+
+                            Buildings Alyssa,<br> Begonia &
+
+                            Clove Embassy Tech Village,<br>
+
+                            Outer Ring Road, Devarabeesanahalli Village,<br>
+
+                            Bengaluru, 560103,
+
+                            Karnataka, India.</p>
+                        
+                        <p><i class="fa fa-envelope text-red mr-2" aria-hidden="true"></i>ankitjain.aj1996@gmail.com</p>
+                    </div>
+                    
+                    <div class="col xl3 l2 m4 s12">
+                        <h6>ABOUT FREELANCER</h6>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy textLorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                        
+                        <p><i class="fa fa-phone text-red mr-2" aria-hidden="true"></i> 8770389198 </p>
+                    </div>
+                </div>
+                
+                <div class="footer_copyright">
+                    <p>Copyright ©2019 All rights reserved | This template is made with  by Colorlib</p>
+                </div>
+                
+            </div>
+        </footer>
+        
+        <!-- **** fixed_action_btn start **** -->
+        <div class="fixed-action-btn">
+          <a class="btn-floating btn-large red">
+            <i class="large material-icons">mode_edit</i>
+          </a>
+          <ul>
+            <li><a class="btn-floating red"><i class="material-icons">insert_chart</i></a></li>
+            <li><a class="btn-floating yellow darken-1"><i class="material-icons">format_quote</i></a></li>
+            <li><a class="btn-floating green"><i class="material-icons">publish</i></a></li>
+            <li><a class="btn-floating blue"><i class="material-icons">attach_file</i></a></li>
+          </ul>
+        </div>
+
+        <!-- **** Compiled and minified JavaScript **** -->
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js"></script>
+        
+        <!-- Slick Slider Js -->        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js" integrity="sha256-NXRS8qVcmZ3dOv3LziwznUHPegFhPZ1F/4inU7uC8h0=" crossorigin="anonymous"></script>
+        
+        <script>
+            $(document).ready(function(){
+                $('.sidenav').sidenav();
+                
+                /* ****** Carousel ******* */
+                $('.carousel.carousel-slider').carousel({
+                    fullWidth: true,
+                    indicators: true,
+                });
+                
+                /* ****** Fixed floating button ******* */
+                $('.fixed-action-btn').floatingActionButton();
+                
+                $('.slider_one').slick({
+                    dots: false,
+                    speed: 300,
+                    autoplay:true,
+                    autoplaySpeed: 1800,
+                    slidesToShow: 6,
+                    slidesToScroll: 3,
+                    arrows: true,
+                    prevArrow: ".slider_btn_one .chevron_prev",
+                    nextArrow: ".slider_btn_one .chevron_next",
+                    responsive: [
+                        {
+                          breakpoint: 1024,
+                          settings: {
+                            slidesToShow: 3,
+                            slidesToScroll: 1,
+                            infinite: true,
+                            dots: true
+                          }
+                        },
+                        {
+                          breakpoint: 600,
+                          settings: {
+                            slidesToShow: 2,
+                            slidesToScroll: 1
+                          }
+                        },
+                        {
+                          breakpoint: 480,
+                          settings: {
+                            slidesToShow: 1,
+                            slidesToScroll: 1
+                          }
+                        }
+                    ]
+                });
+                
+                $('#slider_two').slick({
+                    dots: false,
+                    speed: 300,
+                    autoplay:true,
+                    autoplaySpeed: 1800,
+                    slidesToShow: 4,
+                    slidesToScroll: 2,
+                    arrows: true,
+                    prevArrow: ".slider_btn_two .chevron_prev",
+                    nextArrow: ".slider_btn_two .chevron_next",
+                    responsive: [
+                        {
+                          breakpoint: 1024,
+                          settings: {
+                            slidesToShow: 3,
+                            slidesToScroll: 1,
+                            infinite: true,
+                            dots: true
+                          }
+                        },
+                        {
+                          breakpoint: 600,
+                          settings: {
+                            slidesToShow: 2,
+                            slidesToScroll: 1
+                          }
+                        },
+                        {
+                          breakpoint: 500,
+                          settings: {
+                            slidesToShow: 1,
+                            slidesToScroll: 1
+                          }
+                        }
+                    ]
+                });
+                
+                $('.materialboxed').materialbox();
+            });
+            
+            $('.count').counterUp({
+                delay: 10,
+                time: 3000
+            });
+        </script>
+    </body>
+</html>
